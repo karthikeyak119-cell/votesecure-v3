@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/votsecure-v3/',
+  base: '/votesecure-v3/',
   build: {
     outDir: 'docs',
   },
